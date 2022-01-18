@@ -1,0 +1,46 @@
+.search-form .has-search .form-control {
+    padding-left: 2.375rem;
+}
+.s-col{
+    padding: 0;
+}
+.s-heading h1{
+    color: #5f6577;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.search-header-icon .fa-users{
+    color: #9b57fc;
+    font-size: 30px;
+}
+
+.search-form{
+    text-align: right;
+    padding: 15px 0 10px 0;
+}
+.search-form .form-group{
+    margin: 0;
+}
+.search-form .form-control{
+    border-radius: 27px;
+}
+
+.search-form .has-search .form-control-feedback {
+    position: absolute;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.search-form .btn-outline-success{
+    background-color: #0f4dea;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+}
