@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
+// import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 import { AppComponent } from './app.component';
@@ -9,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { AddUserModalComponent } from './add-user-modal/add-user-modal.component';
+import { EditUserModalComponent } from './edit-user-modal/edit-user-modal.component';
 
 
 @NgModule({
@@ -18,11 +20,13 @@ import { AddUserModalComponent } from './add-user-modal/add-user-modal.component
     HeaderComponent,
     HomeComponent,
     SearchComponent,
-    AddUserModalComponent
+    AddUserModalComponent,
+    EditUserModalComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // FontAwesomeModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,158 @@
+.mob-btn{
+    display: none;
+}
+
+.user-modal .modal-dialog {
+    max-width:900px !important;
+}
+
+.user-modal .modal-body{
+    padding: 0 1rem;
+}
+.symbol {
+    color: #757575;
+    font-weight: 400;
+    font-size: 12px;
+}
+.symbol i {
+    color: #3bc194;
+    margin-right: 5px;
+}
+.modal-btn{
+    padding: 10px 0 30px 0;
+}
+.modal-btn .close{
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #2e2e2e;
+}
+.modal-left{
+    padding: 10px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.ml-inner{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.ml-heading h2{
+    font-size: 30px;
+    color: #909090;
+    text-align: left;
+    padding: 15px 0;
+}
+.modal-left img{
+    width: 100%;
+}
+.user-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.info-card-icon{
+    color: #0f4dea !important;
+}
+
+.um-info{
+    text-align: left;
+}
+.sub-info{
+    padding-bottom: 10px;
+    text-align: left;
+}
+.sub-info h5{
+    color: #272727;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+}
+.sub-info p{
+    font-size: 12px;
+    color: #323232;
+    font-weight: 500;
+    margin: 0;
+    font-style: normal;
+}
+
+.user-table{
+    padding-top: 20px;
+    
+}
+.heading{
+    background: #f3ebff;
+    color: #707070;
+}
+.user-table table th{
+    border: 0;
+}
+.user-table table tr{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+}
+.user-table table td{
+    border: 0;
+    padding: 0 0 5px 0;
+}
+
+.table_wrap {
+    height: 280px;
+    overflow: auto;
+}
+.btn-guradar {
+    background: #0f4dea;
+    border: 1px solid #0f4dea;
+    color: #ffffff;
+    padding: 5px 45px;
+    float: right;
+    margin-top: 20px !important;
+    display: inline-block;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn-guradar:hover {
+    transition: all 0.3s;
+    background: #ffffff;
+    color: #0f4dea;
+}
+.btn-guradar i {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .btn-guradar {
+        margin-bottom: 30px;
+    }
+
+}
+@media only screen and (max-width: 425px) {
+    .mob-btn{
+        text-align: right;
+        width: 100%;
+    }
+    .modal-btn{
+        padding: 0;
+    }
+   
+    .modal-left {
+        box-shadow: none;
+        border-bottom: 1px solid gray;
+    }
+    .modal-left img {
+        width: 70%;
+    }
+    .table_wrap {
+        height: 130px;
+    }
+    .ml-heading h2{
+        font-size: 25px;
+        text-align: center;
+        padding: 0 0 10px 0;
+    }
+    .modal-left{
+        padding: 0;
+    }
+}

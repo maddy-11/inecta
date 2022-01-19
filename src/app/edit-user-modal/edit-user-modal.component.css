@@ -1,0 +1,175 @@
+.modal-left{
+    padding: 10px 20px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+}
+.ml-inner{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.ml-heading h2{
+    font-size: 20px;
+    color: #909090;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.modal-btn{
+    padding: 0px 0 65px 0;
+}
+.modal-btn .close{
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #2e2e2e;
+}
+.edit_modal_guardar {
+    max-width: 70%;
+}
+.user_img_upload {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+.user_img_upload img{
+    width: 100%;
+}
+.edit-header h4 {
+    color: #909090;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.edit-header {
+    padding: 20px 15px 0;
+}
+.close {
+    float: right;
+    font-size: 46px;
+    opacity: .5;
+    margin: -10px 0 0;
+    color: #909090 !important;
+}
+.edit_modal_guardar .modal-body label {
+    font-weight: 600;
+}
+.edit_modal_guardar .modal-body .col-md-6, .edit_modal_guardar .modal-body .col-md-12 {
+    margin-bottom: 20px;
+}
+.status_btn{
+    text-align: left;
+}
+.dropdown-menu {
+    width: 91%;
+    left: 0;
+    transform: none;
+    top: 0;
+}
+.active-option .fa.fa-circle {
+    width: 15px;
+    height: 15px;
+    background: #339900;
+    display: inline-block;
+    border-radius: 100%;
+    float: right;
+}
+.image_container a {
+    text-align: center;
+    display: block;
+    margin: 20px 0 0;
+}
+.image_container a .fa.fa-upload {
+    font-size: 14px;
+    color: #2870bf;
+    margin-right: 5px;
+}
+
+
+
+
+.box_dual_btn .info-card-icon {
+    color: #0f4dea;
+    font-weight: 500;
+}
+
+.uploader a{
+    color: #0f4dea;
+}
+
+
+/* form */
+.modal-edit-form{
+    text-align: left;
+}
+.modal-edit-form label{
+    font-size: 12px;
+    font-weight: 700;
+}
+.modal-edit-form select{
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+}
+
+
+.btn-guradar {
+    background: #0f4dea;
+    border: 1px solid #0f4dea;
+    color: #ffffff;
+    padding: 5px 45px;
+    float: right;
+    margin-top: 20px !important;
+    display: inline-block;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn-guradar:hover {
+    transition: all 0.3s;
+    background: #ffffff;
+    color: #0f4dea;
+}
+.btn-guradar i {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+button.btn.btn-cancelar {
+    background: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+    padding: 5px 45px;
+    margin-top: 20px !important;
+    display: inline-block;
+    border-radius: 0;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+button.btn.btn-cancelar i {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 425px) {
+    .edit_modal_guardar {
+        max-width: 100%;
+    }
+    .mob-btn{
+        text-align: right;
+        width: 100%;
+    }
+    .modal-btn[_ngcontent-c6] {
+        padding: 0;
+    }
+    .cancel-btn{
+        text-align: center;
+    }
+    button.btn.btn-cancelar{
+        position: unset;
+    }
+    .ml-heading h2 {
+        text-align: center;
+    }
+    .user_img_upload {
+        margin: 0 auto;
+    }
+}

@@ -44,3 +44,14 @@
     border: none;
     border-radius: 0;
 }
+
+
+@media only screen and (max-width: 425px) {
+    .search-btn{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .search-form .btn-outline-success{
+        width: 80%;
+    }
+}

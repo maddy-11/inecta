@@ -1,6 +1,6 @@
 .section-header{
     background-color: #081647;
-    padding: 10px 0;
+    padding: 10px;
 }
 .right-section{
     position: absolute;
@@ -17,6 +17,16 @@
     position: relative;
     top: 5px;
 }
+a.nav-link{
+    color: #ffffff;
+}
+.section-header .navbar-light .navbar-nav .nav-text:hover{
+    color: #9b57fc;
+    border-bottom: 2px solid #9b57fc;
+}
+a.nav-link.active> .fa-icon .fas{
+    color: #059400;
+}
 .section-header .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #9b57fc;
    
@@ -32,4 +42,9 @@
 }
 .section-header .navbar-light .navbar-nav .nav-link {
     color: rgb(255 255 255 / 90%);
+}
+
+
+.section-header button:focus{
+    outline:none;
 }

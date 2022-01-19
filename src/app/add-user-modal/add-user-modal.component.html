@@ -1,31 +1,137 @@
-<!-- Button trigger modal -->
-<span type="button" class="" data-toggle="modal" data-target="#exampleModal">
-  + Agregar usuario
-</span>
+<div class="user-modal">
+  <!-- Button trigger modal -->
+  <span type="button" class="" data-toggle="modal" data-target="#exampleModal">
+    + Agregar usuario
+  </span>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-sm-3">
-            <img src="../../assets/images/image1.jpg">
-          </div>
-          <div class="col-sm-9">
-           <h3> asignar lote (por numero de poliza)</h3>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <!-- <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          
+        </div> -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="modal-btn mob-btn">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="col-sm-3 modal-left">
+              <div class="ml-inner">
+                <div class="ml-heading">
+                  <h2>Usuario</h2>
+                </div>
+                <div class="img-wrapper">
+                  <img src="../../assets/images/image1.jpg">
+                </div>
+                
+                <div class="user-actions">
+                  <span class="symbol"><i class="fas fa-circle "></i>Active</span>
+                  <div class="box_dual_btn">
+                    <a class="fal fa-edit info-card-icon"></a>
+                    <a class="fal fa-trash-alt text-danger"></a>
+                  </div>
+                </div>
+                <div class="um-info">
+                  <div class="sub-info">
+                    <h5>Nombre completo</h5>
+                    <p>Nombre completo</p>
+                  </div>
+                  <div class="sub-info">
+                    <h5>Puesto</h5>
+                    <p>Puesto</p>
+                  </div>
+                  <div class="sub-info">
+                    <h5>Ubicacion/sucursal</h5>
+                    <p>Ubicacion/sucursal</p>
+                  </div>
+                  <div class="sub-info">
+                    <h5>Telefono(whatsapp)</h5>
+                    <p>Telefono(whatsapp)</p>
+                  </div>
+                  <div class="sub-info">
+                    <h5>Correo electronico</h5>
+                    <p>Correo electronico</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-9">
+              <div class="modal-btn web-btn">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              
+              <br>
+              <div class="sub-info">
+                <h5>Asignar lote (por numero de poliza)</h5>
+              </div>
+              <div>
+                <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="">
+              </div>
+              <div class="user-table">
+                <div class="sub-info">
+                  <h5>Lotes asignados</h5>
+                </div>
+                <div class="table_wrap">
+                  <table class="table">
+                    <thead class="heading">
+                      <tr>
+                        <th scope="col">Poliza</th>
+                        <th scope="col">Parcels</th>
+                        <th scope="col">Cultivo</th>
+                        <th scope="col">Productor</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td scope="row">xxx/xxx/xxxx</td>
+                        <td>parcela parcela p</td>
+                        <td>Cultivo Cultivo cu</td>
+                        <td>Productor Productor Productor Prod</td>
+                      </tr>
+                      <tr>
+                        <td scope="row">xxx/xxx/xxxx</td>
+                        <td>parcela parcela p</td>
+                        <td>Cultivo Cultivo cu</td>
+                        <td>Productor Productor Productor Prod</td>
+                      </tr>
+                      <tr>
+                        <td scope="row">xxx/xxx/xxxx</td>
+                        <td>parcela parcela p</td>
+                        <td>Cultivo Cultivo cu</td>
+                        <td>Productor Productor Productor Prod</td>
+                      </tr>
+                      <tr>
+                        <td scope="row">xxx/xxx/xxxx</td>
+                        <td>parcela parcela p</td>
+                        <td>Cultivo Cultivo cu</td>
+                        <td>Productor Productor Productor Prod</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="ua-btn">
+                  <button class="btn btn-guradar" type="submit">
+                    <i class="fa fa-check" ></i>Guardar
+                 </button>
+                </div>
+                
+                
+              </div>
+            <!-- <h3> asignar lote (por numero de poliza)</h3> -->
+            </div>
           </div>
         </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
       </div>
     </div>
   </div>

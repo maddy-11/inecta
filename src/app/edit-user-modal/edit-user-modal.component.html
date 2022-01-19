@@ -1,0 +1,131 @@
+
+<div class="user-edit-modal">
+  <!-- Button to Open the Modal -->
+  <span type="button" class="" data-toggle="modal" data-target="#myModal">
+    <!-- <a class="fal fa-edit info-card-icon"></a> -->
+    <div class="box_dual_btn">
+      <a class="fal fa-edit info-card-icon pr-1"></a>
+      <!-- <fa-icon [icon]="faCoffee"></fa-icon> -->
+  </div>
+  </span>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog edit_modal_guardar">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <!-- <div class="edit-header">
+          <h4>Agregar Usuario</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div> -->
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <div class="row">
+          <div class="modal-btn mob-btn">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+            <div class="col-md-3 image_container">
+              <div class="ml-inner">
+                <div class="ml-heading">
+                  <h2>Agreger usuario</h2>
+                </div>
+                <div class="user_img_upload">
+                  <img src="../../assets/images/user.png" alt="user" />
+                </div>
+                <div class="uploader">
+                  <a href="#"><i class="fa fa-upload" ></i>Seleccionar Imagen</a>
+                </div>
+                <div class="cancel-btn">
+                  <button class="btn btn-cancelar" type="submit">
+                    <i class="fas fa-times"></i>canceler
+                  </button>
+                </div>
+                
+              </div> 
+            </div>
+
+
+            <div class="col-md-9">
+              <div class="modal-btn web-btn">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-edit-form">
+                <form>
+                  <div class="row">
+                      <div class="col-md-6">
+                          <label>Nombre Completo</label>
+                          <input type="text" class="form-control" />
+                      </div>
+                      <div class="col-md-6">
+                          <div class="">
+                              <label>Tipo de usuario</label>
+                            <select class="form-control">
+                                <option>Active</option>
+                                <option>InActive</option>
+                                <option>None</option>
+                            </select>
+                              <div class="dropdown-menu dropdown-menu-right">
+                                <button class="dropdown-item active-option" type="button">Active <i class="fa fa-circle"></i></button>
+                                <button class="dropdown-item" type="button">Another action</button>
+                                <button class="dropdown-item" type="button">Something else here</button>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-md-6">
+                          <label>Puesto</label>
+                          <input type="text" class="form-control" />
+                      </div>
+                      <div class="col-md-6">
+                          <label>Tipo de usuario</label>
+                          <select class="form-control">
+                              <option>Seleccionar</option>
+                              <option>InActive</option>
+                              <option>None</option>
+                          </select>
+                      </div>
+                      <div class="col-md-6">
+                          <label>Telefono(Whatsapp)</label>
+                          <input type="number" class="form-control" />
+                      </div>
+                      <div class="col-md-6">
+                          <label>Ubicacion/Sucursal</label>
+                          <select class="form-control">
+                              <option >ubicacion</option>
+                              <option>InActive</option>
+                              <option>None</option>
+                          </select>
+                      </div>
+                      <div class="col-md-6">
+                          <label>Correo Electronico</label>
+                          <input type="text" class="form-control" />
+                      </div>
+                      <div class="col-md-6">
+                          <label>Contrasena</label>
+                          <input type="text" class="form-control" />
+                      </div>
+                      <div class="col-md-12">
+                          <label>Asignar lote (por numero de poliza)</label>
+                          <input type="text" class="form-control" />
+                      </div>
+                  </div>
+              </form>
+              </div>
+              <button class="btn btn-guradar" type="submit">
+                <i class="fa fa-check" ></i>Guardar
+              </button>
+                
+            </div>
+        </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
