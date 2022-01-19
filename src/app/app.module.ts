@@ -8,6 +8,7 @@ import { UserCardsComponent } from './user-cards/user-cards.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
+import { AddUserModalComponent } from './add-user-modal/add-user-modal.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SearchComponent } from './search/search.component';
     UserCardsComponent,
     HeaderComponent,
     HomeComponent,
-    SearchComponent
+    SearchComponent,
+    AddUserModalComponent
   ],
   imports: [
     BrowserModule,
