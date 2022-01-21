@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { AddUserModalComponent } from './add-user-modal/add-user-modal.component';
 import { EditUserModalComponent } from './edit-user-modal/edit-user-modal.component';
+import { PdfPrintComponent } from './pdf-print/pdf-print.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { EditUserModalComponent } from './edit-user-modal/edit-user-modal.compon
     HomeComponent,
     SearchComponent,
     AddUserModalComponent,
-    EditUserModalComponent
+    EditUserModalComponent,
+    PdfPrintComponent
   ],
   imports: [
     BrowserModule,
