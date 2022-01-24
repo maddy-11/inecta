@@ -2,16 +2,26 @@
     width: 52%;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 10px;
 }
-.pdf-wrap{
-    
+.logo-row{
+    padding: 50px 50px 0 50px;
+}
+.pdf-sec-two {
+    padding: 5px 55px;
+    align-items: center;
+}
+.pdf-sec-three{
+    padding: 15px 50px 30px 70px
 }
 .bg-img{
     background-image: url('../../assets/images/pdf-bg.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 259px;
+    background-size: 10%;
     width: 100%;
+}
+.pdf-top{
+    padding: 0 70px 0 100px;
 }
 /* pdf info area  */
 .pdf-info-area .heading{
@@ -21,26 +31,50 @@
 }
 .pdf-info-area .icon{
     color: #8bc63e;
+    font-size: 12px;
+}
+.status-para {
+    font-size: 16px;
+    font-weight: 500;
 }
 .pdf-info-area .paragraph{
-    color: #000;
-    font-weight: 700;
+    color: #333333;
+    font-weight: 800;
     padding-left: 17px;
+    font-size: 12px;
+}
+.right-paragraph{
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.info-input{
+    width: 95%;
 }
 .pdf-info-area .form-control{
     border: 3px solid #09599f;
     border-radius: 20px;
+    font-size: 12px;
+}
+.right-col{
+    padding: 0;
 }
 .pdf-info-area .form-control::placeholder{
     color: #09599f;
     font-size: 18px;
     font-weight: 700;
 }
-.pdf-info-area .section{
-    width: 49%;
+.info-img-wrap{
+    width: 100%;
+    height: 225px;
+    overflow: hidden;
 }
-.pdf-info-area .right-section{
-    width: 49%;
+.graph-inner {
+    padding: 0 15px;
+}
+.info-img-wrap img{
+    width: 100%;
+    height: 100%;
 }
 .pdf-info-area .btn-blue{
     background-color: #09599f;
@@ -51,22 +85,21 @@
     border: none;
     padding: 5px 40px 5px 40px
 }
-.pdf-info-area .img{
-    width: 100%;
-    height: 280px;
-}
+
 .pdf-info-area .graph-box{
     border: 2px solid gray;
     font-size: 11px;
+    padding-top: 20px;
 }
 .pdf-info-area .graph-box .sub-paragraph{
     font-size: 14px;
     font-weight: 700;
     color: #000;
     padding-left: 25px;
+    margin: 5px 0 0 0;
 }
 .pdf-info-area .graph-img{
-    width: 105%;
+    width: 100%;
     height: 329px;
 }
 .pdf-info-area .icon-blue{
@@ -76,37 +109,117 @@
     color: rgb(247, 247, 8);
 }
 .pdf-info-area .bottom-section{
-    border: 3px solid #09599f;;
+    border: 3px solid #09599f;
     border-radius: 35px;
 }
 
 
-.bottom-section{
-    border: 2px solid blue;
-    border-radius: 35px;
-}
 .bottom-section .heading{
-    color: blue;
+    color: #09599f;
     font-size: 20px;
     font-weight: 700;
+    margin: 0;
 }
-.left-section{
+.h-line{
+    background: #09599f;
+    width: 3px;
+    height: 20px;
+}
+.t-date {
+    font-size: 12px;
+    font-weight: 500;
+}
+/* .left-section{
     width: 55%;
 }
 .right-section{
     width: 45%;
+} */
+.sec-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
 }
-.vl{
-    border-right: 3px solid blue;
-    margin-top: 5px;
+.table-inner{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
     margin-bottom: 5px;
+}
+.table-row {
+    display: grid;
+    grid-template-columns: 5% 95%;
+    padding-top: 5px;
+}
+.table-row p{
+    margin: 0;
+}
+.table-inner p{
+    margin: 0;
+}
+.bottom-bg{
+    background: url(../../assets/images/b-bg.png);
+    width: 100%;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.arrow_up i{
+   background: #c3e5e0;
+   padding: 4px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 400;
+}
+.arrow_down i{
+    background: #f3c3c6;
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer-para{
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    padding-left: 20px;
 }
 .bg-img{
     /* background-image: url('images/bottom-bg-img.png'); */
     background-repeat: no-repeat;
-    width: 50%;
-    height: 300px; 
+    width: 100%;
 }
+.blocks {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.blocks p{
+    padding-left: 10px;
+    margin: 0;
+    font-weight: 500;
+}
+.block-1 .bg-1{
+    height: 15px;
+    width: 30px;
+    background: #eef4d3;
+}
+.block-2 .bg-2{
+    height: 15px;
+    width: 30px;
+    background: #f7c5d9;
+}
+
+.block-3 .bg-3{
+    height: 15px;
+    width: 30px;
+    background: #c3e5e0;
+}
+.circled-div{
+    padding: 10px 20px 10px 30px;
+}
+
 
 
 

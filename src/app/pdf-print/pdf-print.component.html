@@ -1,146 +1,225 @@
 <div class="pdf-wrap">
 
   <!-- logo -->
-  <div class="container-fluid">
-    <div class="logo-row px-lg-5 px-md-3 px-sm-2 px-2 text-right pt-5 row-padding">
+  <div class="">
+    <div class="logo-row text-right  row-padding">
       <img src="../../assets/images/pdf-logo.jpg">
     </div>
 
-    <div class="pdf-info-area pt-4 mr-5">
-      <div class="row">
-        <div class="col-lg-1 bg-image bg-img"></div>
-        <div class="col-lg-6">
-          <h3 class="heading">Predio 123</h3>
-          <span>
-            <i class="fas fa-circle icon"></i>
-            Estado Actual: Dentro del umbral<br>
-            <p class="paragraph">60 dias despues de arraigo</p>
-          </span>
-          <form class="input-group">
-            <input class="form-control" type="search" placeholder="Infomacion General" aria-label="Search">
-          </form>
-          <span>
-            <span class="d-inline-block section pt-3">
-              <p class="paragraph">
-                Poliza<br>productor<br>Beneficiario
-                <br>Asegurado<br>cultivo<br>Ubicacion<br>
-                Coordenada centarl<br>Extension en acta<br>
-                Tecnico a cargo
-              </p>
+    <div class="pdf-info-area pt-4">
+      <div class=" bg-image bg-img">
+        <div class="row pdf-top">
+          <div class="col-lg-7">
+            <h3 class="heading">Predio 123</h3>
+            <span>
+              <i class="fas fa-circle icon"></i>
+              <span class="status-para">Estado Actual: Dentro del umbral</span>
+              <br>
+              <p class="paragraph">60 dias despues de arraigo</p>
             </span>
-            <span class="d-inline-block right-section">
-              <p>
-                xxx/xxx/xxxxx<br>productor<br>Beneficiario
-                <br>Asegurado<br>cultivo<br>Ubicacion<br>
-                Coordenada centarl<br>Extension en acta<br>
-                Tecnico a cargo
-              </p>
+            <form class="input-group info-input">
+              <input class="form-control" type="search" placeholder="Infomacion General" aria-label="Search">
+            </form>
+            <span>
+              <span class="d-inline-block section pt-3">
+                <p class="paragraph">
+                  Poliza<br>productor<br>Beneficiario
+                  <br>Asegurado<br>cultivo<br>Ubicacion<br>
+                  Coordenada centarl<br>Extension en acta<br>
+                  Tecnico a cargo
+                </p>
+              </span>
+              <span class="d-inline-block right-section right-paragraph">
+                <p>
+                  xxx/xxx/xxxxx<br>productor<br>Beneficiario
+                  <br>Asegurado<br>cultivo<br>Ubicacion<br>
+                  Coordenada centarl<br>Extension en acta<br>
+                  Tecnico a cargo
+                </p>
+              </span>
             </span>
-          </span>
-        </div>
-        <div class="col-lg-5 text-right">
-          <button class="btn btn-blue mt-4">Report de ciclo actual</button>
-          <p>
-            Fecha de emision: 11/11/2021<br>
-            Otono l Invierno 2021
-          </p>
-          <img class="img" src="../../assets/images/pdf-img.jpg">
+          </div>
+          <div class="col-lg-5 text-right right-col">
+            <button class="btn btn-blue mt-4">Report de ciclo actual</button>
+            <p class="t-date">
+              Fecha de emision: 11/11/2021<br>
+              Otono l Invierno 2021
+            </p>
+            <div class="info-img-wrap">
+              <img class="img" src="../../assets/images/pdf-img.jpg">
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row px-4 pt-3">
+     
+      <div class="row pdf-sec-two">
         <div class="col-lg-8">
           <img class="graph-img" src="../../assets/images/pdf-graph.jpg">
         </div>
         <div class="col-lg-4">
-          <div class="graph-box px-2 py-2">
-            <span>
+          <div class="graph-box">
+            <span class="circled-div">
               <i class="fas fa-circle fa-xs text-danger mr-3"></i>
               Momentos de evaluacion
               <p class="sub-paragraph">Curvas</p>
-              <i class="fal fa-horizontal-rule icon-blue mr-2 fa-lg"></i>
-              Vigor promedio de paecela<br>
-              <i class="fal fa-horizontal-rule mr-2 fa-lg"></i>
-              Vigor de referencia promedia<br>
-              <i class="fal fa-horizontal-rule icon-yellow mr-2 fa-lg"></i>
-              Umbral de alerta<br>
-              <p class="sub-paragraph">Periodos</p>
-              <i class="fas fa-rectangle-wide fa-lg mr-1"></i>
-              Ciclo de cultivo<br><br>
-              <i class="fas fa-rectangle-wide fa-lg mr-1"></i>
-              Predio por debajo de<br><p class="ml-4">umbral de alerta</p>
-              <i class="fas fa-rectangle-wide fa-lg mr-1"></i>
-              Predio por encima de<br><p class="ml-4">umbral de alerta</p>
+              <div class="graph-inner">
+                <i class="fal fa-horizontal-rule icon-blue mr-2 fa-lg"></i>
+                Vigor promedio de paecela<br>
+                <i class="fal fa-horizontal-rule mr-2 fa-lg"></i>
+                Vigor de referencia promedia<br>
+                <i class="fal fa-horizontal-rule icon-yellow mr-2 fa-lg"></i>
+                Umbral de alerta<br>
+                <p class="sub-paragraph">Periodos</p>
+
+                <div class="block-1 blocks">
+                  <div class="bg-1"></div>
+                  <p>Ciclo de cultivo</p>
+                </div>
+
+                <div class="block-2 blocks">
+                  <div class="bg-2"></div>
+                  <p> Predio por debajo de umbral de alerta</p>
+                </div>
+
+                <div class="block-3 blocks">
+                  <div class="bg-3"></div>
+                  <p> Predio por encima de umbral de alerta</p>
+                </div>
+              </div>
+              
+
+              
             </span>
           </div>
         </div>
       </div>
-      
-
+      <div class="pdf-sec-three">
       <div class="row">
-        <div class="col-lg-4 py-2 bottom-section mx-2">
-            <span>
-                <span class="d-inline-block">
-                    <h2 class="heading">
-                        Alertas
-                    </h2>
-                </span>
-                <span class="d-inline-block float-right">
-                    <h2 class="heading">
-                        2
-                    </h2>
-                </span>
-            </span> 
+        <div class="col-lg-4">
+          <div class="bottom-section">
+            <span class="sec-inner">
+              <span class="">
+                  <h2 class="heading">
+                      Alertas
+                  </h2>
+              </span>
+              <span class="">
+                  <h2 class="heading">
+                      2
+                  </h2>
+              </span>
+          </span> 
+          </div>  
         </div>
-        <div class="col-lg-7 bottom-section mx-2">
-            <span>
-                <span class="d-inline-block left-section vl">
-                    <h2 class="heading">
-                        Etapas del ciclo
-                    </h2>
-                </span>
-                <span class="d-inline-block right-section py-1 px-3">
-                    <h2 class="heading">
-                        Ocurrencia
-                    </h2>
-                </span>
-            </span> 
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 mx-3 mt-2">
-            <span>
-                <i class="fa fa-arrow-circle-down fa-lg mr-2" aria-hidden="true"></i>
-                11/05/2021 - 04/06/21
-                <p class="ml-4 pl-2">Pro debajo del umbral por 24 dias</p>
-                <i class="fa fa-arrow-circle-up fa-lg mr-2" aria-hidden="true"></i>
-                11/05/2021 - 04/06/21
-                <p class="ml-4 pl-2">Pro debajo del umbral por 24 dias</p>
-            </span>
-        </div>
-        <div class="col-lg-7  mt-2">
-            <span>
-                <span class="d-inline-block left-section">
-                    <span class="w-50 d-inline-block">
-                        Arraigo<br>Siembra*
-                        <br>Mayor Verdor*<br>Fin de ciclo*
-                    </span>
-                    <span class="float-right w-25 d-inline-block">
-                        11/06/21<br>04/05/21
-                        <br>11/08/21<br>04/09/21
-                    </span>
-                </span>
-                <span class="d-inline-block right-section py-1 px-2">
-                    <span>
-                        -<br>-<br>90 dias despues de Arraigo<br>
-                        160 dias despues de arraigo
-                    </span>
-                </span>
-            </span> 
+        <div class="col-lg-8 ">
+          <div class="bottom-section">
+            <span class="sec-inner">
+              <span class=" vl">
+                  <h2 class="heading">
+                      Etapas del ciclo
+                  </h2>
+              </span>
+              <span class="h-line"></span>
+              <span class=" right-section">
+                  <h2 class="heading">
+                      Ocurrencia
+                  </h2>
+              </span>
+          </span> 
+          </div>
+            
         </div>
       </div>
 
       
+          <!------------ row 1 -------------->
+      <div class="table-row">
+        <div class="arrow_down">
+          <i class="fal fa-arrow-down fa-lg" aria-hidden="true"></i>
+        </div>
+        <div class="table-inner">
+          <div class="row">
+            <div class="col-md-4">
+              <p class="t-date">11/05/2021 - 04/06/21</p> 
+            </div>
+            <div class="col-md-2">
+              <p class="t-date">Arraigo</p>
+            </div>
+            <div class="col-md-2">
+              <p class="t-date">11/06/21</p>
+            </div>
+            <div class="col-md-4">
+              <p class="t-date"> - </p>
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="col-md-4">
+              <p class="t-date">Por debajo del umbral 24 dias</p> 
+            </div>
+            <div class="col-md-2">
+              <p class="t-date">Siembra*</p>
+            </div>
+            <div class="col-md-2">
+              <p class="t-date">04/05/21</p>
+            </div>
+            <div class="col-md-4">
+              <p class="t-date"> - </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!------------ row 2 -------------->
+      <div class="table-row">
+        <div class="arrow_up">
+          <i class="fal fa-arrow-up fa-lg" aria-hidden="true"></i>
+        </div>
+        <div class="table-inner">
+          <div class="row">
+            <div class="col-md-4">
+              <p class="t-date">11/05/2021 - 04/06/21</p> 
+            </div>
+            <div class="col-md-2">
+              <p class="t-date">Mayor Verdor*</p>
+            </div>
+            <div class="col-md-2">
+              <p class="t-date">11/08/21</p>
+            </div>
+            <div class="col-md-4">
+              <p class="t-date"> 90 dies despues de arraigo </p>
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="col-md-4">
+              <p class="t-date">Por debajo del umbral 24 dias</p> 
+            </div>
+            <div class="col-md-2">
+              <p class="t-date">Fin de ciclo*</p>
+            </div>
+            <div class="col-md-2">
+              <p class="t-date">04/09/21</p>
+            </div>
+            <div class="col-md-4">
+              <p class="t-date"> 160 dies despues de arraigo </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <p class="footer-para">
+        *Fechas/dies estimados de acuerdo a referencia de ciclos anteriores
+      </p>
+    </div>
+    <div class="col-md-6">
+      <div class="bottom-bg"></div>
     </div>
   </div>
 </div>
