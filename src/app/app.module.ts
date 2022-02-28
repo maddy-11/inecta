@@ -12,6 +12,11 @@ import { SearchComponent } from './search/search.component';
 import { AddUserModalComponent } from './add-user-modal/add-user-modal.component';
 import { EditUserModalComponent } from './edit-user-modal/edit-user-modal.component';
 import { PdfPrintComponent } from './pdf-print/pdf-print.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { DasboardTabSelectionCardsComponent } from './dasboard-tab-selection-cards/dasboard-tab-selection-cards.component';
+import { DashboardEditModalComponent } from './dashboard-edit-modal/dashboard-edit-modal.component';
+import { DashbordUserPopupModalComponent } from './dashbord-user-popup-modal/dashbord-user-popup-modal.component';
 
 
 @NgModule({
@@ -23,7 +28,12 @@ import { PdfPrintComponent } from './pdf-print/pdf-print.component';
     SearchComponent,
     AddUserModalComponent,
     EditUserModalComponent,
-    PdfPrintComponent
+    PdfPrintComponent,
+    DashboardComponent,
+    SidebarComponent,
+    DasboardTabSelectionCardsComponent,
+    DashboardEditModalComponent,
+    DashbordUserPopupModalComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,120 @@
+.user-table.mt-dashbord{
+    padding: 0 20px 0 0;
+}
+.dashboard-edit h3{
+    color: #909090;
+    font-size: 26px;
+    font-weight: bold;
+}
+.search-area{
+    position: relative;
+}
+.search-area h5{
+    font-size: 18px;
+    color: #0F4DEA;
+    font-weight: bold;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+.search-area .form-control{
+    padding: 5px 0 5px 45px;
+    border-radius: 0;
+}
+.search-area span.fa.fa-search{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: #081647;
+}
+.um-wrap{
+    width: 51px;
+    height: 51px;
+    overflow: hidden;
+    border-radius: 9px;
+}
+.active-user{
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background: #2ABC8B;
+    margin-right: 10px;
+}
+.mu-area {
+    display: inline-flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.mt-dashbord p{
+    padding-left: 10px;
+}
+.mt-dashbord p, a{
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+}
+.ma-btn{
+    background: transparent;
+    border: 1px solid #707070;
+    border-radius: 14px;
+    font-size: 14px;
+    color: #383838;
+    width: 100px;
+    position: relative;
+    bottom: 7px;
+}
+.ma-btn-filled{
+    background: #9B57FC;
+    border: 1px solid #9B57FC;
+    border-radius: 14px;
+    font-size: 14px;
+    color: #ffffff;
+    width: 100px;
+    position: relative;
+    bottom: 7px;
+}
+.croz-btn{
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    color: #FF0000;
+}
+.table thead{
+    background: #E3EBFF
+}
+.table thead tr{
+    border: none;
+}
+.table th{
+    border: none;
+}
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.table tbody tr:first-child{
+    border-bottom: 2px solid #E3EBFF;
+}
+.table td{
+    border: none;
+    padding: 5px;
+}
+.dashbord-edit .ua-btn{
+    float: right;
+}
+.ua-btn .black-btn, .blue-btn{
+    border-radius: 0;
+}
+.dashb-btn{
+    padding-bottom: 91px;
+}
+.dashbord-edit .form-group {
+    margin-bottom: 0.5rem;
+}
+
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 936px;
+    }
+}

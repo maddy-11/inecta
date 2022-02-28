@@ -1,0 +1,137 @@
+.sidebar-mian{
+    width: 400px;
+    padding: 30px 20px 0 25px;
+}
+/* Search bar Start*/
+.search-form .has-search .form-control {
+    padding-left: 22px;
+}
+.fa-search:before {
+    color: #0f4dea;
+}
+.search-btn {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    top: 10px;
+}
+.search-btn p{
+    margin: 0;
+    font-size: 15px;
+    padding-left: 5px;
+}
+ input::placeholder {
+    color: #717171;
+}
+.s-col{
+    padding: 0;
+}
+.s-heading h1{
+    color: #5f6577;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.search-header-icon .fa-users{
+    color: #9b57fc;
+    font-size: 30px;
+}
+
+.search-form{
+    text-align: right;
+    padding: 0 0 10px 0;
+}
+.search-form .form-group{
+    margin: 0;
+}
+.search-form .form-control{
+    border-radius: 27px;
+}
+
+.search-form .has-search .form-control-feedback {
+    position: absolute;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    left: -10px;
+}
+.search-form .btn-outline-success{
+    background-color: #0f4dea;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+}
+input.form-control {
+    border: 0;
+    border-bottom: 1px solid #DEDEDE;
+    border-radius: 0 !important;
+}
+
+/* Search Bar End*/
+
+
+/*  SideBar Start*/
+.label-main{
+    display: flex;
+    justify-content: space-between;
+}
+.rs h6{
+    font-size: 13px;
+    color: #081647;
+    margin: 0;
+    padding-top: 10px;
+}
+.ls p span{
+    padding-left: 10px;
+}
+.rs span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #081647;
+}
+.sidebar-mian .tabs h4{
+    font-size: 18px;
+}
+.sidebar-mian .tabs p{
+    font-size: 16px;
+    color: #383838;
+    margin: 0;
+}
+.sidebar-mian p span{
+    font-size: 13px;
+    color: #2ABC8B;
+    font-weight: 600;
+}
+.sidebar-mian h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+/* .tabs {
+    display : block;
+    width: 350px;
+} */
+.tabs > input{ /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+}
+.tabs > input + div{ /* DIV STYLES */
+    cursor:pointer;
+    border:2px solid transparent;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.20);
+    padding: 15px;
+    margin: 10px 0 0 0;
+}
+.tabs > input:checked + div{ /* (RADIO CHECKED) DIV STYLES */
+    background-color: #ebf3ff;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+/*  SideBar End*/

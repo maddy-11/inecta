@@ -1,8 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
 
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .mob-btn{
     display: none;
 }
+.yellow-btn{
+    background: #EABF2E;
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 2px 10px;
+    width: 85px;
+}
+.green-btn{
+    background: #2ABC8B;
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 2px 10px;
+    width: 85px;
+}
+.blue-btn{
+    background: #0F4DEA;
+    color: #ffffff;
+    width: 166px;
+}
+.black-btn{
+    background: #000000;
+    color: #ffffff;
+    width: 166px;
+}
+.f-item{
+    padding-right: 5px;
+}
+
 
 @media only screen and (max-width: 425px) {
     .web-btn{

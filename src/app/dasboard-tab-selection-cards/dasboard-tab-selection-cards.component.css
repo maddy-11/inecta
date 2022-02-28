@@ -1,0 +1,317 @@
+ul{
+    list-style: none;
+    padding: 0;
+}
+.scards-main{
+    width: 400px;
+    box-shadow: 3px 4px 10px rgb(0 0 0 / 25%);
+    padding: 20px 35px;
+}
+.c-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.im-wrap{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+
+/*
+ CSS for the main interaction
+*/
+.tabset > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+  }
+  
+  .tabset .tab-panel {
+    display: none;
+  }
+  
+  .tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+  .tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+  .tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+  .tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+  .tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+  .tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+    display: block;
+  }
+  
+ 
+  
+  .tabset > label {
+    position: relative;
+    display: inline-block;
+    /* padding: 15px 15px 25px; */
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .tabset{
+    padding-top: 10px;
+  }
+  .t-pad{
+    padding-left: 10px;
+  }
+  .ut{
+      text-align: center;
+  }
+  .ut h3{
+      font-size: 14px;
+      color: #0F4DEA;
+      font-weight: bold;
+      margin: 0;
+  }
+  .ut p{
+      font-size: 12px;
+      color: #383838;
+  }
+  /* .tabset > label::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    width: 22px;
+    height: 4px;
+    background: #8d8d8d;
+  } */
+  
+  .tabset > label:hover,
+  .tabset > input:focus + label {
+    color: #06c;
+  }
+  
+  .tabset > input:checked + label::after h3{
+    color: red !important;
+  }
+  .tabset > input:checked + label::after p{
+    color: red !important;
+  }
+  .tabset > label:hover::after,
+  .tabset > input:focus + label::after,
+  .tabset > input:checked + label::after {
+    background: #06c;
+  }
+  
+  .tabset > input:checked + label h3{
+    /* border-color: #ccc;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px; */
+    color: #000000;
+    font-weight: bold;
+  }
+  .tabset > input:checked + label p{
+    color: #000000;
+  }
+  .tab-panel {
+    padding: 10px 0;
+    border-top: 1px solid #d5d5d5;
+  }
+  
+
+
+
+
+  /*
+ CSS for the main interaction
+*/
+.accordion > input[type="checkbox"] {
+    position: absolute;
+    left: -100vw;
+  }
+  
+  .accordion .content {
+    overflow-y: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+  }
+  
+  .accordion > input[type="checkbox"]:checked ~ .content {
+    height: auto;
+    overflow: visible;
+  }
+  .accordion{
+    padding-bottom: 20px;
+  }
+ 
+  .accordion label {
+    display: block;
+  }
+  
+ 
+  .accordion > input[type="checkbox"]:checked ~ .content {
+    padding: 15px;
+    border-bottom: 1px solid #D5D5D5;
+    border-top: 0;
+  }
+  
+  .accordion .handle {
+    margin: 0;
+    font-size: 1.125em;
+    line-height: 1.2em;
+  }
+  
+  .accordion label {
+    color: #343434;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+    /* padding: 15px; */
+    /* background: #e8e8e8; */
+  }
+  
+  /* .accordion label:hover,
+  .accordion label:focus {
+    background: #d8d8d8;
+  } */
+  
+  .accordion .handle label:before {
+    font-family: 'fontawesome';
+    content: "\f054";
+    display: inline-block;
+    margin-right: 10px;
+    font-size: .58em;
+    line-height: 1.556em;
+    vertical-align: middle;
+    float: right;
+    color: #9B57FF;
+  }
+  
+  .accordion > input[type="checkbox"]:checked ~ .handle label:before {
+    content: "\f078";
+  }
+  
+  .accordion p:last-child {
+    margin-bottom: 0;
+  }
+  .t-para p{
+      font-size: 16px;
+      color: #383838;
+  }
+  .tc-info ul{
+      display: flex;
+      justify-content: space-between;
+  }
+  .tc-info ul p{
+      margin: 0;
+  }
+  .tc-info .up-list{
+      text-align: center;
+  }
+  .tc-info .up-list p{
+      font-size: 22px;
+      color: #9B57FF;
+  }
+  .tc-info .up-list p span{
+      font-size: 12px;
+      font-weight: 400;
+  }
+  .tc-info .up-list h6{
+      font-size: 16px;
+      color: #383838;
+      font-weight: 400;
+  }
+  .b-div{
+      padding: 0 0 20px 0;
+  }
+  .b-list {
+      background: #F0F4FF;
+      padding: 10px 15px;
+      margin: 0 0 1px 0;
+  }
+  .b-list h6, p{
+    font-size: 18px;
+    margin: 0;
+ }
+ .b-list p{
+     font-weight: 400;
+ }
+ .b-list i{
+     color: #0F4DEA;
+ }
+ .in-main{
+    
+ }
+ .in-main p{
+     font-size: 16px;
+     color: #383838;
+ }
+ .in-card {
+    background: #F0F4FF;
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+}
+.iau h6 {
+    font-size: 18px;
+    color: #383838;
+    float: left;
+    margin: 0;
+}
+.i-active{
+    height: 10px;
+    width: 20px;
+    background: #2abc8b;
+    border-radius: 6px;
+    float: right;
+    position: relative;
+    top: 4px;
+}
+.iu-card {
+    padding-left: 10px;
+}
+
+.ch{
+  font-size: 22px;
+  color: #343434;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.c-icon i {
+  color: #B991FF;
+  font-size:15px;
+}
+.c-name{
+  display: flex;
+  align-items: center;
+}
+.iu-card p {
+    font-size: 15px;
+    font-weight: 400;
+}
+.ut{
+    float: left;
+}
+.utime{
+    float: right;
+}
+.formatos-main ul li{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #EAEAEA;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.16);
+    padding: 5px;
+}
+.tick{
+    padding-right: 10px;
+}
+.tick i{
+    background: #9B57FF;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 12px;
+}
+::ng-deep .em-dashbord .info-card-icon{
+  color: #0F4DEA !important;
+  border: 1px solid #0F4DEA;
+  border-radius: 50%;
+  padding: 5px;
+}
